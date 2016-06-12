@@ -1,0 +1,18 @@
+@charset "utf-8";
+/*主导航*/
+.nav .nav_center ul li.nav_01{
+	background:url(../images/nav_01.gif) top no-repeat; border-left:none; width:115px; margin-left:0;
+}
+.nav .nav_center ul li.nav_06{
+	background:url(../images/nav_06.gif) bottom no-repeat;
+}
+.nav .nav_center ul li.nav_08{
+		width:162px;
+}
+/*主体右边文章部分*/
+.article{
+	font-size:14px; line-height:24px; margin-bottom:60px;
+}
+.article .article_piece{
+	margin:25px 0 20px 30px;
+}

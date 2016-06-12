@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/*主体第一部分，最新资讯*/
+.main1{
+	width:980px; height:30px; background:url(../images/main1_bg.jpg) repeat-x; line-height:27px; color:#999;
+}
+.main1 a{
+	color:#737373;
+}
+.main1 a:hover{
+	color:#F60;
+}
+.main1 .main1_left{
+	width:600px; float:left; padding-left:18px;
+}
+.main1 .main1_left span{
+	color:red;
+}
+.main1 .main1_right{
+	width:72px; float:right;
+}
+.main1 .main1_right span{
+	color:#5e8bac;
+}
+/*主体第二部分，最主要部分*/
+.main2{
+	width:980px;_width:1000px; height:300px;
+}
+.main2 .title{
+	 height:38px; border-bottom:1px solid #e4e4e4; font-size:14px; padding-left:28px; background:url(../images/main2_left_icon.gif) left bottom no-repeat; color:#747474; font-weight:bold; line-height:45px; _position:relative;
+}
+.main2 .title span{
+	_position:absolute; _left:27px;
+}
+.main2 .title1{
+	background:url(../images/main2_left_icon1.gif) left bottom no-repeat;
+}
+.main2 .more_logo a{
+	background:url(../images/more.jpg)  no-repeat; height:28px; width:55px; margin:-24px 0 0 10px; display:block;
+}
+/*第二部分左边部分*/
+.main2 .main2_left{
+	width:255px; float:left;
+}
+.main2 .main2_left .title{
+	width:240px; 
+}
+.main2 .main2_left .article {
+	 width:248px; color:#747474; line-height:22px; padding-left:12px; margin:10px 0; height:218px; border-bottom:1px solid #e4e4e4;
+}
+.main2 .main2_left .article img{
+	margin:10px 0;
+}
+/*第二部分中间部分*/
+.main2 .main2_center {
+	float:left; margin-left:30px; _margin-left:18px; width:472px;
+}
+.main2 .main2_center .article1{
+	background:url(../images/main2_center_bg.gif) top no-repeat; width:472px; height:228px; border-bottom:1px solid #e4e4e4;
+}
+.main2 .main2_center .article_main{
+	padding:86px 0 0 108px; line-height:22px; color:#737373;
+}
+.main2 .main2_center  a{
+	color:#5e8bac; font-size:12px;
+}
+.main2 .main2_center .article_main font a:hover{
+	color:#F60;
+}
+.main2 .main2_center .more_logo{
+	margin-top:-15px;
+}
+/*第二部分右边部分*/
+.main2 .main2_right{
+	width:209px; float:right;
+}
+.main2 .main2_right .main2_right_icon{
+	height:218px; border-bottom:1px solid #e4e4e4; font-size:22px; color:#276c93; text-align:center; line-height:54px; margin-top:10px; font-family:微软雅黑;
+}
+.main2 .main2_right .main2_right_icon ul li{
+	width:208px; height:52px; margin-bottom:10px; padding-left:21px;
+}
+.main2 .main2_right .main2_right_icon ul li.main2_right_icon1{
+	 background:url(../images/main2_right_icon1.gif) no-repeat;
+}
+.main2 .main2_right .main2_right_icon ul li.main2_right_icon2{
+	background:url(../images/main2_right_icon2.gif) no-repeat;
+}
+.main2 .main2_right .main2_right_icon ul li.main2_right_icon3{
+	background:url(../images/main2_right_icon3.gif) no-repeat; font-size:16px;
+}
+.main2 .main2_right .more_logo{
+	margin-top:-15px;
+}

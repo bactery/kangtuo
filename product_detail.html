@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>康拓电子-产品展示详情</title>
+<link href="css/public.css" type="text/css" rel="stylesheet" />
+<link href="css/product_detail.css" type="text/css" rel="stylesheet" />
+<script>
+    window.onload=function()
+    {
+      var oText=document.getElementById('research');
+      var oBtn=document.getElementById('js');
+      oBtn.onclick=function()
+      {
+        var vali = oText.value.Trim();
+        if(vali=="")
+			alert('请输入字符串');
+		else
+			alert(vali);
+      }
+      oText.onkeypress=function(ev)
+      {
+        var ev=ev||event;
+        if(ev.keyCode==13||ev.which==13)
+        {
+          oBtn.onclick();
+        }
+      }
+    }
+    String.prototype.Trim = function()    
+    {    
+      return this.replace(/(^\s*)|(\s*$)/g, "");    
+    } 
+</script>
+</head>
+
+<body>
+<div class="back">
+	<!--头部部分开始-->
+    <div class="header">
+        <a href="index.html"><img src="images/header_logo.gif" width="188" height="53" /></a>
+        <div class="header_right">
+            <ul>
+                <li class="header_right1"><a href="index.html">返回首页</a></li>
+                <li class="header_right2"><a href="#">加入收藏</a></li>
+                <li class="header_right3"><a href="contact_us.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--头部部分结束-->
+    <!--导航部分开始-->
+    <div class="nav">
+        <div class="nav_left"></div>
+        <div class="nav_center">
+            <ul>
+                <a href="index.html"><li class="nav_01"></li></a>
+                <a href="about_us.html"><li class="nav_02"></li></a>
+                <a href="product.html"><li class="nav_03"></li></a>
+                <a href="news_center.html"><li class="nav_04"></li></a>
+                <a href="service_center.html"><li class="nav_05"></li></a>
+                <a href="human_resource.html"><li class="nav_06"></li></a>
+                <a href="contact_us.html"><li class="nav_07"></li></a>
+                <li class="nav_08">
+                	<a id="js" href="#"><img src="images/research_logo.gif" width="14" height="14" /></a>
+                	<input id="research" type="text" name="research"/>
+                </li>
+            </ul>
+        </div>
+        <div class="nav_right"></div>
+    </div> 
+    <!--导航部分结束-->
+    <!--大幅logo部分-->
+    <div class="logo"><img src="images/big_logo.gif" width="980" height="226" /></div>
+    <!--主体部分-->
+    <div class="contain">
+    <!--主体左边部分-->
+    	<div class="left">
+        	<div class="left_top"></div>
+            <div class="left_bottom">
+            	<img src="images/contect_us.gif" width="204" height="62" />
+                <div class="left_bottom_article">
+                	<p>淄博市蓝翔陶瓷材料有限公司</p>
+                    <p>咨询电话：400-0533-132</p>
+                    <p>手　　 机：18653303655</p>
+                    <p>传　　 真：0533-5331162</p>
+                    <p>联&nbsp;&nbsp;系&nbsp;&nbsp;人&nbsp;：钟经理</p>
+                    <p>地　　 址：山东省•淄博市•淄川区</p>
+                </div>
+            </div>
+        </div>
+    	<!--主体右边部分-->
+        <div class="right">
+        	<div class="title">
+            	<span>您现在的位置：</span>　　　<a href="index.html">首页</a>　　　　<a href="product.html">产品展示 </a>
+            </div>
+            <div class="article">
+            <!--各栏目页面不同的主体右边文章部分开始-->
+                <div class="product_title">
+                	KT-7900电压监测仪
+                </div>
+                <div class="product_img">
+                	<img src="images/pic04.gif" width="200" height="150" />
+                </div>
+                <div class="product_main">
+                	<p>概述</p>
+                    <p>　　电压监测仪系统由电压监测仪终端和电压监测主站管理系统两部分组成。电压监测仪性能先进，稳定可靠，系列众多。按照监测量程划分，可以监测100V，220V或者380V；按照通讯接口方式划分，有RS485接口型，GPRS无线网络型等多种类型的电压监测仪。电压监测主站管理系统由主站计算机系统(视规模大小,由单机或者计算机网络组成)，数据库管理系统，电压监测管理软件,GPRS管理机等组成。主站管理系统功能强大，稳定可靠，可扩展性强，能够直接管理以各种通讯方式入网的电压监测仪终端，既可以自成体系，也可以与其它系统交换数据。</p>
+                    <br/> 
+                    <p>功能与特点</p>
+                    <p><span>●</span>RS485和GPRS两种通讯方式。</p>
+                    <p><span>●</span>自动计算电压合格率。</p>
+                    <p><span>●</span>自动连接主站并上传数据。</p>
+                    <p><span>●</span>维护简单。体积小，易安装。</p>
+                    <p><span>●</span>采用全新的DSP处理单元电路，计算更精确、迅速。</p>
+                    <p><span>●</span>实时电压显示状态：显示日期，时间，各路电压瞬时值及状态。</p>
+                    <p><span>●</span>新型全中文液晶显示屏作为人机界面，方便直观。</p>
+                    <p><span>●</span>采用红外遥控无接触式配置。安全省力。</p>
+                    <p><span>●</span>适用于配电网各种电压等级。</p>
+                    <p><span>●</span>装置电源失电后数据保存功能。</p>
+                </div>  
+            <!--各栏目页面不同的主体右边文章部分结束-->
+            </div>
+        </div>
+    </div>
+    
+	<!--底部部分-->    
+    <div class="footer">
+    	<div class="footer_left">
+    		<a href="contact_us.html">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">版权声明</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">网站地图</a>
+        </div>
+        <div class="footer_right">
+        	CopyRight © 2013   康拓电气 All Rights Reserved
+        </div>
+    </div>
+</div>
+</body>
+</html>

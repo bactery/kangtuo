@@ -1,0 +1,42 @@
+@charset "utf-8";
+/*主导航*/
+.nav .nav_center ul li.nav_01{
+	background:url(../images/nav_01.gif) top no-repeat; border-left:none; width:115px; margin-left:0;
+}
+.nav .nav_center ul li.nav_04{
+	background:url(../images/nav_04.gif) bottom no-repeat;
+}
+.nav .nav_center ul li.nav_08{
+		width:162px;
+}
+.contain .right .title{
+	_margin-left:7px;
+}
+/*主体右边文章部分*/
+.article{
+	padding:30px; padding-top:0; line-height:20px; margin-bottom:70px;margin-top:30px;
+}
+.article span a{
+	float:left; color:#333333; font-weight:bold; cursor:pointer;
+}
+.article a:hover{
+	color:#f60;
+}
+.article font{
+	float:right; color:#999999; font-size:12px;
+}
+.article a p{
+	clear:both; width:690px;_width:687px; cursor:pointer;
+}
+.article .page{
+	margin:45px 0 0 200px;
+}
+.article .page a{
+	height:21px; padding:0 5px; margin-left:7px; border:1px solid #0d0d0f; float:left;
+}
+.article .page a.now{
+	 background:#0d0d0f; color:#ffffff;
+}
+.article .page a:hover{
+	 background:#0d0d0f; color:#ffffff;
+}

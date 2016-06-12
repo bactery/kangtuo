@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*主导航*/
+.nav .nav_center ul li.nav_01{
+	background:url(../images/nav_01.gif) top no-repeat; border-left:none; width:115px; margin-left:0;
+}
+.nav .nav_center ul li.nav_05{
+	background:url(../images/nav_05.gif) bottom no-repeat;
+}
+.nav .nav_center ul li.nav_08{
+		width:162px;
+}
+.contain .right .title{
+	_margin-left:2px;
+}
+/*主体右边文章部分*/
+.article{
+	padding:35px 10px 0 15px; font-size:14px; color:#333333; line-height:24px;
+}
+.tab{
+	width:713px; height:228px; border-top:2px solid #cccccc;  border-left:2px solid #cccccc; font-size:12px; margin:36px 0 140px 0;
+}
+.tab .line1{
+	width:712px; height:37px; border-bottom:2px solid #cccccc; font-weight:bold; border-right:2px solid #cccccc;
+}
+.tab .line2{
+	width:713px; height:20px; border-bottom:1px solid #cccccc;  border-right:1px solid #cccccc;
+}
+.tab .tab1{
+	height:20px; width:153px; border-right:1px solid #cccccc; float:left;
+}
+.tab .tab2{
+	height:20px; width:558px; border-right:1px solid #cccccc; float:left;
+}
+.tab .tab3{
+	height:20px; width:250px; border-right:1px solid #cccccc; float:left;
+}
+.tab .tab4{
+	height:20px; width:48px; border-right:1px solid #cccccc; float:left;
+}
+.tab .tab5{
+	height:20px; width:307px; border-right:1px solid #cccccc; float:left;
+}
+.tab .tab6{
+	height:20px; width:404px; border-right:1px solid #cccccc; float:left;
+}
+/*.tab tr td{
+	border:1px solid #cccccc; height:20px;
+}
+.tab tr th{
+	text-align:left; padding-top:0; border:2px solid #cccccc;
+}*/
